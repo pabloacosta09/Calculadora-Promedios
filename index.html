@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Promedio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Promedio</h1>
+
+        <div class="input-container">
+            <label for="notas">Ingresa las notas separadas por comas:</label>
+            <input type="text" id="notas" placeholder="Ej: 7, 8, 6.5">
+        </div>
+
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+
+        <p>El promedio es: <span id="resultado"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
